@@ -202,6 +202,11 @@ padding-inline: 10px;
     padding-block: 2.5rem;
 }
 
+.section-three h1{
+    margin-left: 70px; 
+    margin-block: 20px;
+}
+
 .product-name{
    box-sizing: border-box;
     flex-wrap: wrap;
@@ -219,6 +224,12 @@ padding-inline: 10px;
 
 .section-four{
     padding-block: 40px;
+    }
+
+    .section-four h1{
+        margin-left: 70px; 
+        margin-block: 30px;
+         font-size: 36px;
     }
     .four-image div{
         margin-inline: 9px;
@@ -332,7 +343,7 @@ padding-inline: 10px;
     padding-block: 40px;
 }
 .all-product {
-    /* justify-content: space-between; */
+    justify-content: space-between;
     /* margin-inline: 10px;  */
     padding-top: 40px;
    
@@ -345,10 +356,10 @@ padding-inline: 10px;
     margin-inline: 10px;
 }
 .product-box img{
-    /* width: 285px;
-    height: 380px; */
-    width: 150px;
-    height: 230px;
+    width: 285px;
+    height: 380px;
+    /* width: 200px;
+    height: 230px; */
 
 }
 
@@ -594,15 +605,30 @@ hr{
     flex-direction: column;
     flex-wrap: nowrap;
 }
+.section-three h1{
+    margin-left: 0px; 
+    text-align: center;
+    font-size: 25px;
+    margin-block: 20px;
+}
 .product-name  h1{
+    line-height: 20px;
+    text-align: start;
     width: 90%;
-    font-size: 1.8rem;
+    margin-inline: 50px;
+    font-size: 1.5rem;
 }
 
 
 .section-four{
     padding-block: 0px;
 
+    }
+
+    .section-four h1{
+        margin-left: 0px; 
+        text-align: center;
+        font-size: 20px;
     }
 
 
@@ -675,10 +701,19 @@ hr{
     padding: 6px;
 }
 
+.section-six{
+    padding-inline: 20px;
+    padding-block: 40px;
+}
 .all-product{
     display: none;
 }
 
+.section-six h1{
+    font-size: 20px;
+    margin-block: 10px;
+    text-align: center;
+}
 .product-resp-top{
     display: block;
     padding-block: 50px;
@@ -686,8 +721,14 @@ hr{
 
 .product-resp{
     display: flex;
+    /* justify-content: space-between; */
 }
 
+.product-box-resp img{
+    width: 150px;
+    height: 230px;
+    margin-inline: 10px;
+}
 
 
 .section-sevan{
@@ -944,6 +985,11 @@ text-align: center;
     display: flex;
 }
 
+.product-box-resp img{
+    width: 200px;
+    height: 270px;
+    margin-inline: 10px;
+}
 
 
 .section-sevan{
@@ -1187,10 +1233,25 @@ text-align: center;
     padding-block: 50px;
 }
 
-.product-resp{
+
+.all-product{
     display: none;
 }
 
+.product-resp-top{
+    display: block;
+    padding-block: 50px;
+}
+
+.product-resp{
+    display: flex;
+}
+
+.product-box-resp img{
+    width: 200px;
+    height: 270px;
+    margin-inline: 10px;
+}
 
 
 .section-sevan{
